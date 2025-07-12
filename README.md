@@ -1,15 +1,10 @@
-# 🧠 Multi-Source Q&A system
+# 🕵🏻 Agent Based Q&A system
+
+![Student Performance Prediction UI](assests/Q&A_System.png)
 
 An intelligent chatbot powered by LangChain Agents and Retrieval-Augmented Generation (RAG) that dynamically fetches context from **Wikipedia**, **ArXiv**, and **Web Pages**, then generates accurate, contextual responses using **Ollama**'s LLMs. 
 
-### 📐 Architecture
 
-```text
-User Query ➜ Streamlit UI ➜ LangChain Agent
-            ➜ Wikipedia / ArXiv / Web Loader
-            ➜ FAISS Vector Store + Ollama Embeddings
-            ➜ LLM Response Generated via RAG
-```
 ---
 
 
